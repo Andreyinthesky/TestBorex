@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Borex;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var server = new BorexServer();
+            var rates = server.Rates;
+            for (int i = 0; i < rates.Count; i++)
+            {
+                Console.WriteLine("{0,-6}{1,8:0.00}{2,8:0.00}",
+                    rates[i].Currency,
+                    rates[i].Cost,
+                    rates[i].Growth);
+            }
+            Console.ReadKey();
         }
     }
 }
