@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borex", "Borex\Borex.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Cartman", "Client.Cartman\Client.Cartman.csproj", "{60CD2548-854F-4017-9C60-53826F61E851}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Butters", "Client.Butters\Client.Butters.csproj", "{B4DFA745-AC06-4E24-A327-173282D583D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{60CD2548-854F-4017-9C60-53826F61E851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60CD2548-854F-4017-9C60-53826F61E851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60CD2548-854F-4017-9C60-53826F61E851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4DFA745-AC06-4E24-A327-173282D583D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4DFA745-AC06-4E24-A327-173282D583D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4DFA745-AC06-4E24-A327-173282D583D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4DFA745-AC06-4E24-A327-173282D583D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
